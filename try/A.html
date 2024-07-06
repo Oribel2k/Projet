@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ajouter un Utilisateur</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <form class="user-form">
+            <h2>Ajouter un Utilisateur</h2>
+            <div class="form-row">
+                <div class="form-group">
+                    <label for="matricule">Nom</label>
+                    <input type="text" id="nom" name="nom">
+                </div>
+                <div class="form-group">
+                    <label for="prenom">Prénom</label>
+                    <input type="text" id="prenom" name="prenom">
+                </div>
+            </div>
+            <div class="form-row">
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email">
+                </div>
+                <div class="form-group">
+                    <label for="phone">Téléphone</label>
+                    <input type="tel" id="phone" name="phone">
+                </div>
+            </div>
+            <div class="form-row">
+                <div class="form-group">
+                    <label for="sexe">Sexe</label>
+                    <select id="sexe" name="sexe">
+                        <option value="masculin">Masculin</option>
+                        <option value="feminin">Féminin</option>
+                        <option value="autre">Autre</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="date-naissance">Date de naissance</label>
+                    <input type="date" id="date-naissance" name="date-naissance">
+                </div>
+            </div>
+            <div class="form-row">
+                <div class="form-group">
+                    <label for="direction">Département</label>
+                    <select id="direction" name="direction">
+                        <option value="Meyer">Atacora</option>
+                        <option value="Meyer">Atlantique</option>
+                        <option value="Meyer">Alibori</option>
+                        <option value="Meyer">Borgou</option>
+                        <option value="Meyer">Collines</option>
+                        <option value="Meyer">Couffo</option>
+                        <option value="Meyer">Donga</option>
+                        <option value="Meyer">Littoral</option>
+                        <option value="Meyer">Mono</option>
+                        <option value="Meyer">Ouémé</option>
+                        <option value="Meyer">Plateau</option>
+                        <option value="Meyer">Zou</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="commune">Commune</label>
+                    <input id="commune" name="commune"></input>
+                </div>
+            </div>
+            <div class="form-row">
+                <div class="form-group">
+                    <label for="quartier">Quartier</label>
+                    <input id="quartier" name="quartier"></input>
+                </div>
+                <div class="form-group">
+                    <label for="situation">Situation matrimoniale</label>
+                    <select id="situation" name="situation">
+                        <option value="">Célibataire sans enfants</option>
+                        <option value="">Célibataire avec enfants</option>
+                        <option value="">Marié(e) sans enfants</option>
+                        <option value="">Marié(e) avec enfants</option>
+                    </select>
+                </div>
+            </div>
+            <button type="submit">Créer</button>
+        </form>
+    </div>
+</body>
+</html>

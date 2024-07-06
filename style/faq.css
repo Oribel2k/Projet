@@ -1,0 +1,171 @@
+*{
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    width: 100vw;
+    height: 90vh;
+}
+
+header {
+    background-color: #01582D;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height:64px ;
+  --default-color: #ffffff;
+  --heading-color: #ffffff;
+  --contrast-color: #ffffff;
+  color: var(--default-color);
+  position: fixed;
+  top: 0;
+}
+
+h2 {
+    color: black;
+    margin-bottom: 30px;
+    padding-top: -30px;
+    font-weight: bolder;
+}
+
+.text{
+    text-align: center;
+}
+
+.title {
+    width: 300px;
+    height: 90px;
+    left: -11px;
+    gap: 0px;
+    opacity: 0px;
+  
+}
+
+.navmenu ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    list-style: none;
+    align-items: center;
+}
+
+.navmenu li {
+    position: relative;
+}
+
+.navmenu a,
+.navmenu a:focus {
+    color: #ffff;
+    padding: 20px 15px;
+    margin-left: 2px;
+    font-size: 16px;
+    font-family: var(--nav-font);
+    font-weight: 400;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    white-space: nowrap;
+    transition: 0.3s;
+    text-decoration-color:#ffff; 
+    text-decoration: none;
+}
+
+.navmenu a i,
+.navmenu a:focus i {
+    font-size: 12px;
+    line-height: 0;
+    margin-left: 2px;
+    transition: 5s;
+}
+
+.navmenu li:hover>a,
+.navmenu .active,
+.navmenu .active:focus {
+    color: white;
+    background-color: #2f2e2e;
+    opacity : 0.5;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f5f5f5;
+}
+
+.faq-container {
+    width: 80%;
+    max-width: 600px;
+}
+
+.faq-item {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    overflow: hidden;
+}
+
+.faq-question {
+    background-color: #fff;
+    padding: 15px;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #ddd;
+}
+
+.faq-answer {
+    display: none;
+    padding: 15px;
+    background-color: #fff;
+}
+
+.faq-question .faq-arrow {
+    font-size: 1.2em;
+}
+
+.faq-question.active .faq-arrow {
+    transform: rotate(180deg);
+}
+
+.footer {
+    background-color: #004d1a; /* Couleur de fond verte */
+    color: white;
+    text-align: center;
+    padding: 10px 0; 
+}
+  
+.footer-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+  
+.copyright {
+    text-align: center;
+    text-decoration: underline;
+}
+  
+.whatsapp-icon {
+    position: absolute;
+    right: 20px;
+    z-index: 1000; /* S'assure que l'icône reste au-dessus du footer */
+}
+  
+.whatsapp-icon img {
+    width: 48px;
+    height: 48px;
+}
+  
+.fixed-bottom{
+    position: fixed;
+    bottom: 0;
+}
