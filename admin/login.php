@@ -26,7 +26,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
             $_SESSION['username'] = $user['username'];
             
             // Redirection vers le tableau de bord
-            header("Location: admin\admin.php");
+            header("Location: admin.php");
             exit();
         }
     }

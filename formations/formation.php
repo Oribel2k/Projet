@@ -125,10 +125,8 @@ button:hover {
                     <label for="formation-type">Type de formation</label>
                     <input type="text" id="formation-type" name="formation_type" list="formation-types" required>
                     <datalist id="formation-types">
-                        <option value="Certificat">
-                        <option value="Diplôme">
-                        <option value="Licence">
-                        <option value="Master">
+                        <option value="Formation académique">
+                        <option value="Formation professionnelle">
                     </datalist>
                 </div> <br>
                 <div class="form-group">
@@ -145,6 +143,7 @@ button:hover {
                         <option value="Bac+2">
                         <option value="Bac+3">
                         <option value="Bac+5">
+                        <option value="Plus">
                     </datalist>
                 </div> <br>
                 <div class="form-group">

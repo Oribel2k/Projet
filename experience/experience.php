@@ -110,7 +110,7 @@ width: 100%;
     <div class="container">
         <div class="header">
             <h2>Ajouter une expérience</h2>
-            <a href="../experiences/ajouter.php">Retour</a>
+            <a href="../experience/ajouter.php">Retour</a>
         </div>
         <hr> <br>
         <form action="../experience/process_form.php" method="POST" enctype="multipart/form-data">

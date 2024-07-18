@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style/style.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-    <title>Document</title>
+    <title>Accueil BENIN PETRO SA</title>
 </head>
 <body>
     <div class="sidebar">
@@ -28,7 +28,7 @@
             <img src="img/accueil_1.jpeg" alt="" class="img">
         </div> <br>
         <div class="button-container">
-            <form action="../BP-services-master/generate_pdf.php" method="post">
+            <form action="../PROJET/generate_pdf.php" method="post">
                 <button type="submit" class="btn" >Générer votre CV</button>
             </form>
         </div>
@@ -36,7 +36,7 @@
     
     <div class="fixed-bottom">
         <div class="whatsapp-icon">
-            <a href="https://wa.me/+22966342020" target="_blank">
+            <a href="https://wa.me/22960009292" target="_blank">
                 <img src="https://img.icons8.com/color/48/000000/whatsapp.png" alt="WhatsApp">
             </a>
         </div> 
